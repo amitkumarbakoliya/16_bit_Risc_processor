@@ -1,5 +1,5 @@
-# 16_bit_Risc_processor
-In this project I have a design a 16 bit risc processor. i have write Verilog code for the this processor and simulate it on vivado.
+# 32_bit_Risc_processor
+In this project I have a design a 16 bit risc processor based on harvard architecture . i have write Verilog code for the this processor and simulate it on vivado.
 
 In the Verilog code there is many modules,
 
@@ -19,7 +19,7 @@ In the Verilog code there is many modules,
      
      (8)	Risc processor control unit.
      
-     (9)  testbench
+     (9)   testbench
      
 # Instruction set -
 
@@ -93,13 +93,15 @@ In this processor there is 3 types of instructions are designed.
    
 3. Jump:
 
-          JMP offset Jump to {PC [15:13], (offset << 1)}
+          JMP offset Jump to {PC [31:27], (offset << 1)}
 
 # Instruction format-
 
-![Screenshot (490)](https://github.com/amitkumarbakoliya/16_bit_Risc_processor/assets/138565461/cb72efe2-c4e0-4a7f-aa55-01222ce3193e)
+![Screenshot (492)](https://github.com/amitkumarbakoliya/16_bit_Risc_processor/assets/138565461/7795e12a-efb2-4ff1-940c-4e54b33c1ed2)
 
-![Screenshot (491)](https://github.com/amitkumarbakoliya/16_bit_Risc_processor/assets/138565461/158d84fe-9a07-4b98-b312-f80fd5124415)
+
+![Screenshot (493)](https://github.com/amitkumarbakoliya/16_bit_Risc_processor/assets/138565461/9b8e613e-b93f-4103-ba52-13a494968b5a)
+
 
 # processor control design -
 
@@ -107,7 +109,7 @@ In this processor there is 3 types of instructions are designed.
 
 # ALU control design -
 
-![Screenshot (489)](https://github.com/amitkumarbakoliya/16_bit_Risc_processor/assets/138565461/e15cba8c-88c7-434d-b576-4804db55fe1c)
+![Screenshot (495)](https://github.com/amitkumarbakoliya/16_bit_Risc_processor/assets/138565461/af57d4b0-afd7-42d0-bb80-4ea4120fee37)
 
 
 
