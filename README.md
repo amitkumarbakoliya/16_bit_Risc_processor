@@ -1,5 +1,5 @@
 # 32_bit_Risc_processor
-In this project I have a design a 16 bit risc processor based on harvard architecture . i have write Verilog code for the this processor and simulate it on vivado.
+In this project I have a design a 32 bit risc processor based on harvard architecture . i have write Verilog code for the this processor and simulate it on vivado.
 
 In the Verilog code there is many modules,
 
